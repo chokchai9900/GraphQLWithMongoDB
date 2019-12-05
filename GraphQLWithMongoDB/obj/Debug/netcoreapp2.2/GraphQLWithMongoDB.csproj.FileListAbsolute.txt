@@ -1,0 +1,16 @@
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\bin\Debug\netcoreapp2.2\GraphQLWithMongoDB.deps.json
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\bin\Debug\netcoreapp2.2\GraphQLWithMongoDB.runtimeconfig.json
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\bin\Debug\netcoreapp2.2\GraphQLWithMongoDB.runtimeconfig.dev.json
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\bin\Debug\netcoreapp2.2\GraphQLWithMongoDB.dll
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\obj\Debug\netcoreapp2.2\GraphQLWithMongoDB.csprojAssemblyReference.cache
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\obj\Debug\netcoreapp2.2\GraphQLWithMongoDB.RazorAssemblyInfo.cache
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\obj\Debug\netcoreapp2.2\GraphQLWithMongoDB.RazorAssemblyInfo.cs
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\obj\Debug\netcoreapp2.2\GraphQLWithMongoDB.AssemblyInfoInputs.cache
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\obj\Debug\netcoreapp2.2\GraphQLWithMongoDB.AssemblyInfo.cs
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\obj\Debug\netcoreapp2.2\GraphQLWithMongoDB.RazorTargetAssemblyInfo.cache
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\bin\Debug\netcoreapp2.2\GraphQLWithMongoDB.pdb
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\obj\Debug\netcoreapp2.2\GraphQLWithMongoDB.dll
+C:\Users\chokc\source\repos\GraphQLWithMongoDB\GraphQLWithMongoDB\obj\Debug\netcoreapp2.2\GraphQLWithMongoDB.pdb
