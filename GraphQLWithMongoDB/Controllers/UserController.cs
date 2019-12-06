@@ -12,13 +12,13 @@ namespace GraphQLWithMongoDB.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly UserService userService;
-        public UserController(UserService userService)
+        private readonly MainService userService;
+        public UserController(MainService userService)
         {
             this.userService = userService;
         }
         [HttpGet]
-        public IActionResult GetAll()
+        public IActionResult GetAllUser()
         {
             return new ObjectResult(userService.GetAllUser());
         }
@@ -27,10 +27,6 @@ namespace GraphQLWithMongoDB.Controllers
         {
             return new ObjectResult(userService.GetUserByID(id));
         }
-        [HttpGet("{active}")]
-        public IActionResult GetUserByActive(bool active)
-        {
-            return new ObjectResult(userService.GetUserByActive(active));
-        }
+
     }
 }

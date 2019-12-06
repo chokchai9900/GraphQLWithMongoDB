@@ -7,14 +7,16 @@ namespace GraphQLWithMongoDB.models
 {
     public class DatabaseSettings : IDatabaseSettings
     {
-        public string CollectionName { get; set; }
+        public string UserCollectionName { get; set; }
+        public string CompanyCollectionName { get; set; }
         public string ConnectionString { get; set; }
         public string DatabaseName { get; set; }
     }
 
     public interface IDatabaseSettings
     {
-        string CollectionName { get; set; }
+        string UserCollectionName { get; set; }
+        string CompanyCollectionName { get; set; }
         string ConnectionString { get; set; }
         string DatabaseName { get; set; }
     }

@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace GraphQLWithMongoDB.Queries
 {
-    public class UserQuery : ObjectGraphType
+    public class MainQuery : ObjectGraphType
     {
-        public UserQuery(UserService userService)
+        public MainQuery(MainService mainService)
         {
             //work
             Field<ListGraphType<UserType>>(
                 name: "GetAllUser",
-                resolve: context => userService.GetAllUser());
+                resolve: context => mainService.GetAllUser());
 
             Field<UserType>(
                 name: "GetUserByID",
@@ -23,7 +23,21 @@ namespace GraphQLWithMongoDB.Queries
                 resolve: context =>
                 {
                     var id = context.GetArgument<string>("id");
-                    return userService.GetUserByID(id);
+                    return mainService.GetUserByID(id);
+                }
+            );
+
+            Field<ListGraphType<CompanyType>>(
+                name: "GetAllCompany",
+                resolve: context => mainService.GetAllCompany());
+
+            Field<CompanyType>(
+                name: "GetCompanyByID",
+                arguments: new QueryArguments(new QueryArgument<StringGraphType> { Name = "id" }),
+                resolve: context =>
+                {
+                    var id = context.GetArgument<string>("id");
+                    return mainService.GetCompanyByID(id);
                 }
             );
 

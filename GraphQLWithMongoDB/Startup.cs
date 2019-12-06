@@ -38,7 +38,7 @@ namespace GraphQLWithMongoDB
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
             });
-            services.AddScoped<UserService>();
+            services.AddScoped<MainService>();
             
         }
 

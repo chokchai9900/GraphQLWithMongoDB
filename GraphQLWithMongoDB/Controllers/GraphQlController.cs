@@ -14,15 +14,15 @@ namespace GraphQLWithMongoDB.Controllers
     [ApiController]
     public class GraphQlController : Controller 
     {
-        readonly UserService userService;
-        public GraphQlController(UserService userService)
+        readonly MainService mainService;
+        public GraphQlController(MainService mainService)
         {
-            this.userService = userService;
+            this.mainService = mainService;
         }
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] GraphQlQuery query)
         {
-            var schema = new Schema { Query = new UserQuery(userService) };
+            var schema = new Schema { Query = new MainQuery(mainService) };
             var result = await new DocumentExecuter().ExecuteAsync(x =>
             {
                 x.Schema = schema;
