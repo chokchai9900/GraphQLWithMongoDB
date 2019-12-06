@@ -29,17 +29,17 @@ namespace GraphQLWithMongoDB.Queries
 
 
             //fail
-            Field<UserType>(
-                name: "GetUserByActive",
-                arguments: new QueryArguments(new QueryArgument<BooleanGraphType> { Name = "active" }),
-                resolve: context =>
-                {
-                    var active = context.GetArgument<bool>("active");
-                    return userService.GetUserByActive(active);
-                }
+            //Field<UserType>(
+            //    name: "GetUserByActive",
+            //    arguments: new QueryArguments(new QueryArgument<BooleanGraphType> { Name = "active" }),
+            //    resolve: context =>
+            //    {
+            //        var active = context.GetArgument<bool>("active");
+            //        return userService.GetUserByActive(active);
+            //    }
 
-            );
-            
+            //);
+
         }
 
     }

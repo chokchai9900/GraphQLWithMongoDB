@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace GraphQLWithMongoDB.Controllers
 {
     [Route(Startup.GraphQlPath)]
+    [ApiController]
     public class GraphQlController : Controller 
     {
         readonly UserService userService;
